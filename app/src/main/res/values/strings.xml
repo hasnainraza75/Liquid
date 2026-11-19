@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Lux Control</string>
+    <string name="accessibility_service_label">Lux Control Edge &amp; Screenshot</string>
+    <string name="accessibility_service_description">Enables the top-right corner swipe trigger to open Lux Control Center above apps and performs native Android screenshots when tapped.</string>
+    <string name="notification_listener_label">Lux Control Media Bridge</string>
+    <string name="nav_control_center">Control</string>
+    <string name="nav_customize">Studio</string>
+    <string name="nav_system">System</string>
+    <string name="channel_overlay_name">Top-Right Swipe Gesture</string>
+    <string name="channel_overlay_desc">Keeps the lightweight top-right edge swipe handle active to launch Lux Control Center.</string>
+    <string name="channel_recording_name">Screen Recording</string>
+    <string name="channel_recording_desc">Active Android MediaProjection screen recording session controls.</string>
+    <string name="tile_wifi">Wi-Fi</string>
+    <string name="tile_bluetooth">Bluetooth</string>
+    <string name="tile_mobile_data">Mobile</string>
+    <string name="tile_airplane">Airplane</string>
+    <string name="tile_flashlight">Torch</string>
+    <string name="tile_location">Location</string>
+    <string name="tile_rotation">Rotation</string>
+    <string name="tile_battery_saver">Battery</string>
+    <string name="tile_dnd">Focus DND</string>
+    <string name="tile_screen_record">Record</string>
+    <string name="tile_screenshot">Capture</string>
+    <string name="tile_cast">Cast</string>
+    <string name="tile_hotspot">Hotspot</string>
+    <string name="label_brightness">Brightness</string>
+    <string name="label_volume">Volume</string>
+    <string name="label_now_playing">Now Playing</string>
+    <string name="label_no_active_media">No Active Media</string>
+    <string name="action_launch_overlay">Open Shade</string>
+    <string name="action_stop_recording">Stop</string>
+    <string name="overlay_notification_title">Lux Top-Right Swipe Active</string>
+    <string name="overlay_notification_body">Swipe down from the top-right corner to open Lux Control Center.</string>
+    <string name="recording_notification_title">Lux Screen Recording</string>
+    <string name="recording_notification_body">Recording screen to Movies/LuxRecordings.</string>
+</resources>

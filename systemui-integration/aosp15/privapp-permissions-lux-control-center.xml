@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Install path on AOSP 15 / custom ROM:
+  /system_ext/etc/permissions/privapp-permissions-lux-control-center.xml
+
+  Required for privileged SystemUI-tier APIs (silent Wi-Fi, Hotspot, Mobile Data,
+  Airplane Mode, Battery Saver, and Status Bar shade replacement) on platform-signed builds.
+-->
+<permissions>
+    <privapp-permissions package="com.aistudio.luxcontrol.vqxkpm">
+        <permission name="android.permission.STATUS_BAR_SERVICE" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.CONTROL_DISPLAY_BRIGHTNESS" />
+        <permission name="android.permission.NETWORK_SETTINGS" />
+        <permission name="android.permission.TETHER_PRIVILEGED" />
+        <permission name="android.permission.MODIFY_PHONE_STATE" />
+        <permission name="android.permission.DEVICE_POWER" />
+        <permission name="android.permission.MANAGE_MEDIA_PROJECTION" />
+        <permission name="android.permission.INTERACT_ACROSS_USERS" />
+    </privapp-permissions>
+</permissions>

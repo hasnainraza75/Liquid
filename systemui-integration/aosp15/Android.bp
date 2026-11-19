@@ -1,0 +1,25 @@
+// AOSP Android 15 (android-15.0.0) Soong Build Blueprint
+// Place under: packages/apps/LuxControlCenter/Android.bp
+// Requires AOSP 15 custom ROM or OEM platform signing key.
+
+android_app_import {
+    name: "LuxControlCenter",
+    apk: "LuxControlCenter-release-unsigned.apk",
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    dex_preopt: {
+        enabled: true,
+    },
+    required: [
+        "privapp_whitelist_com.aistudio.luxcontrol.vqxkpm",
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.aistudio.luxcontrol.vqxkpm",
+    sub_dir: "permissions",
+    src: "privapp-permissions-lux-control-center.xml",
+    filename_from_src: true,
+    system_ext_specific: true,
+}

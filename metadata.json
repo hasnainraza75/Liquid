@@ -1,0 +1,6 @@
+{
+  "name": "Lux Control",
+  "description": "Liquid Glass Android 15 Control Center with real system telemetry, top-right swipe overlay, and itel City 200 C681L SystemUI architecture integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
